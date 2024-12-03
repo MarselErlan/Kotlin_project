@@ -34,5 +34,21 @@ fun main() {
         else -> println("You're really old")
     }
 
+    //----------------------------
+
+    println("Where are you from?")
+    val country = readLine()
+
+    when(country) {
+        "India" -> println("namaste")
+        "USA" -> println("Hello")
+        "Germany" -> println("Hallo")
+        "Russia" -> println("Privet")
+        else -> println("I don't know that")
+    }
+
+    //------------------------
+
+
 
 }
